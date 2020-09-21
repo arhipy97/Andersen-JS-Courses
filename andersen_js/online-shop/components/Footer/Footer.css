@@ -1,0 +1,49 @@
+.footer {
+	background: rgb(58, 58, 58);
+	color: white;
+	padding: 50px 150px;
+	margin-top: 30px;
+	font-size: 15px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer__adress {
+	margin-bottom: 20px;
+	margin-left: 10px;
+	font-size: 20px;
+}
+
+.footer__adress i{
+	margin-right: 10px;
+}
+
+.footer__author i {
+	margin-bottom: 15px;
+	margin-left: 5px;
+}
+
+.footer__author i {
+	margin-right: 10px;
+}
+
+.footer__social {
+	display: flex;
+	flex-direction: column;
+}
+
+.social__item {
+	font-size: 20px;
+	margin-bottom: 15px;
+	text-decoration: none;
+	color: white;
+}
+
+.social__item i {
+	transition: all 0.3s ease-out;
+}
+
+.social__item:hover i{
+	color: red;
+}

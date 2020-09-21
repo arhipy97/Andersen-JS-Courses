@@ -1,0 +1,66 @@
+.bag__container {
+  width: 70%;
+  height: 92%;
+  position: fixed;
+  top: 53%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  padding: 30px;
+  background-color: white;
+  z-index: 120;
+  border: 2px solid red;
+  border-radius: 30px;
+}
+
+.bag-element__name {
+  padding: 15px;
+  font-weight: bold;
+}
+
+.bag-element__price {
+  padding: 15px;
+  color: brown;
+}
+
+.bag__close {
+  position: absolute;
+  top: 8px;
+  right: 25px;
+  font-size: 30px;
+  color: #000;
+  opacity: .5;
+  font-weight: 700;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+ }
+ 
+.bag__close:hover {
+  color: red;
+ }
+
+.transfer {
+  color: rgb(69, 69, 202);
+}
+
+.buy__button {
+  margin-bottom: 10px;
+  padding: 10px;
+  cursor: pointer;
+  max-width: 400px;
+  width: 100%;
+  height: 50px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 10px;
+  background-color: rgb(104, 221, 104);
+  transition: all 0.2s ease-in-out;
+  margin-left: 10px;
+}
+
+.buy__button:hover {
+  background-color: rgb(128, 241, 128);
+}

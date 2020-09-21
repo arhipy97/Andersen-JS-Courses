@@ -1,0 +1,66 @@
+.info__container {
+  width: 70%;
+  height: 93%;
+  position: fixed;
+  top: 53%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  padding: 70px;
+  background-color: white;
+  z-index: 120;
+  border: 2px solid red;
+  border-radius: 30px;
+}
+
+.info__close {
+  position: absolute;
+  top: 8px;
+  right: 25px;
+  font-size: 30px;
+  color: #000;
+  opacity: 0.5;
+  font-weight: 700;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.info__item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info__first {
+  margin-right: 20px;
+  text-align: center;
+}
+
+.info__img {
+  width:260px;
+  height: 260px;
+  margin-bottom: 10px;
+  border: 1px solid rgb(167, 167, 167);
+  border-radius: 20px;
+}
+
+.fa-star {
+  color: orange;
+}
+
+.info__title {
+  font-size: 50px;
+}
+
+.info__price {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.info__desc {
+  text-align: justify;
+}
+
+.hide {
+  display: none;
+}

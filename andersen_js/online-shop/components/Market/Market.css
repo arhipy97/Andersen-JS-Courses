@@ -1,0 +1,140 @@
+.market {
+  max-width: 860px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+
+.market__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.header__title {
+  padding-bottom: 5px;
+  border-bottom: 3px solid red;
+}
+
+.header_link {
+  margin-left: 10px;
+  padding-bottom: 5px;
+  text-decoration: none;
+  color: black;
+  transition: border-bottom 0.1s ease-out;
+}
+
+.header_link:hover {
+  border-bottom: 3px solid red;
+}
+
+.market__items {
+  display: flex;
+  flex-wrap: wrap;
+}
+.market__collection {
+  display: flex;
+  flex-wrap: wrap;   
+}
+
+.market__container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.market__item {
+  width: 260px;
+  text-align: center;
+  margin-right: 20px;
+  display: block;
+  text-decoration: none;
+  color: black;
+  transition: all 0.2s ease-out;
+}
+
+.main__item_active h3 {
+  color: rgb(245, 76, 76);
+}
+
+.tabheader__item_active {
+  border-bottom: 3px solid red;
+}
+
+.products-element {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 20px 0px;
+}
+
+.item__img {
+  margin-bottom: 5px;
+}
+
+.item__price {
+  margin-top: 5px;
+  font-weight: 700;
+}
+
+.item__button {
+  color: #494949 !important;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #b6b8b7;
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  display: inline-block;
+  transition: all 0.4s ease 0s;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.item__button_active {
+  background-color: yellowgreen;
+  color: #494949;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  display: inline-block;
+  transition: all 0.4s ease 0s;
+  margin-top: 20px;
+  width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item__button:hover {
+  background: #fd6b6b;
+}
+
+.market__item i {
+  color: orange;
+  font-size: 5px;
+}
+
+.market__item:hover {
+  transform: scale(1.08);
+}
+
+img.item__img {
+  width: 260px;
+  height: 260px;
+}
+
+.hidden {
+  display: none;
+}
+
+.show {
+  display: block;
+}

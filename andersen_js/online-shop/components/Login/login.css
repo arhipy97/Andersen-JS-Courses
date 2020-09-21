@@ -1,0 +1,30 @@
+#modal__error{
+  margin-top: 10px;
+  text-align: center;
+  color: red;
+}
+
+.alert {
+  font-size: 15px;
+  width: 10%;
+  padding: 3px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #4CAF50;
+  color: white;
+}
+
+.closebt {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebt:hover {
+  color: black;
+}
